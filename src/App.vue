@@ -1,13 +1,6 @@
 <template>
  <div>
- 
-  
-
    <Header/>
-
-
-
-
    <router-view/>
 
  </div>
@@ -19,14 +12,9 @@ import Header from './home/Header.vue';
 
 export default {
   name:'App',
- 
-  
   components:{
      Header
   }
-  
-  
-  
   
 }
 </script>

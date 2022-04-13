@@ -1,9 +1,5 @@
 <template>
  <div>
- 
-  
-   
-   
    <carousel
      @next="next"
      @prev="prev"
@@ -17,7 +13,6 @@
      </carousel-slide>
    </carousel> 
    <MainContent/>
-   
   <Footer/>
  </div>
 </template>
